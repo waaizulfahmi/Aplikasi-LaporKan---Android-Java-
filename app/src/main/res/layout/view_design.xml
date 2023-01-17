@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/view_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_marginBottom="20dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/view_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KATEGORI : " />
+
+    <TextView
+        android:id="@+id/view_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="STATUS : " />
+
+    <TextView
+        android:id="@+id/view_pelapor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Pelapor" />
+
+    <TextView
+        android:id="@+id/view_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Pelapor" />
+
+    <TextView
+        android:id="@+id/view_notelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NoTelp" />
+
+    <TextView
+        android:id="@+id/view_tgl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Kejadian" />
+
+    <TextView
+        android:id="@+id/view_lokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi"
+        />
+
+    <TextView
+        android:id="@+id/view_isi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Isi Laporan" />
+
+    <TextView
+        android:id="@+id/view_kerusakan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kerusakan" />
+
+    <TextView
+        android:id="@+id/view_korban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Korban" />
+
+    <TextView
+        android:id="@+id/view_tambahan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Bantuan Tambahan " />
+
+</LinearLayout>

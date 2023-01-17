@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wafapps.laporkan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher3_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LaporKan">
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6717854542875869~1558901120" />
+
+        <activity
+            android:name=".ActivityUpdate"
+            android:exported="true" />
+        <activity
+            android:name=".AccountInfomation"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityListData"
+            android:exported="true" />
+        <activity
+            android:name=".ReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name=".splash"
+            android:exported="true"
+            android:theme="@style/Theme.LaporKan.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.LaporKan" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.wafapps.laporkan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
